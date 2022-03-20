@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Nexa';
+    font-style: normal;
+    font-weight: 500;
+    src: url(../fonts/Nexa-Regular.ttf) format('truetype');
+  }
+@font-face {
+font-family: 'Nexa';
+font-style: normal;
+font-weight: 200;
+src: url(../fonts/Nexa-Book.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Nexa';
+    font-style: bold;
+    font-weight: 900;
+    src: url(../fonts/Nexa-Heavy.ttf) format('truetype');
+    }
+@import "./reset";
+  
+@import "./_variables.scss";
+  
+@import "./_general.scss";
+  
+@import "./blocks/_header.scss";
+
+@import "./blocks/_main.scss";
