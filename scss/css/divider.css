@@ -1,0 +1,28 @@
+.divider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 40px;
+  line-height: 77px;
+  font-weight: 400;
+  color: #013444;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 72px;
+  margin-bottom: 34px;
+}
+
+.divider span {
+  font-weight: 900;
+}
+
+.divider .divider__img {
+  margin-top: 27px;
+  width: 34px;
+}
+/*# sourceMappingURL=divider.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../blocks/whatWeDo.scss"
+    ],
+    "names": [],
+    "file": "whatWeDo.css"
+}

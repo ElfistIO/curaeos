@@ -1,0 +1,18 @@
+.divider {
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    line-height: 77px;
+    font-weight: 400;
+    color: #013444;
+    align-items: center;
+    margin-top: 72px;
+    margin-bottom: 34px;
+    span {
+        font-weight: 900;
+    }
+    .divider__img {
+        margin-top: 27px;
+        width: 34px;
+    }
+}

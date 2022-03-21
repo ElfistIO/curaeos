@@ -1,0 +1,112 @@
+.specialists {
+    display: flex;
+    flex-direction: column;
+    margin-top: 67px;
+    background-color: $light-blue;
+    position: relative;
+    ._container {
+        display: flex;
+        flex-direction: column;
+    }
+    .specialists__title {
+        font-size: 55px;
+        line-height: 60px;
+        font-weight: 900;
+        color: #013444;
+        margin-top: 72px;
+        padding-left: 100px;
+        position: relative;
+    }
+    .specialists__title::after {
+        content: "";
+        width: 50px;
+        height: 5px;
+        background-color: $blue;
+        position: absolute;
+        top: 150px;
+        left: 100px;
+    }
+    .specialists__wrap {
+        display: flex;
+        margin-top: 80px;
+        padding: 0 50px 0 50px;
+        align-items: center;
+        position: relative;
+    }
+    ._arrow_left {
+        width: 16px;
+        height: 34px;
+        padding-right: 15px;
+    }
+    ._arrow_right {
+        width: 16px;
+        height: 34px;
+        padding-left: 15px;
+    }
+    .specialists__photo {
+        height: 306px;
+        img {
+            width: 306px;
+        }
+    }
+    .specialists__text {
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: 200;
+        font-style: italic;
+        color: #013444;
+        background-color: #faf7f4;
+        padding: 40px 50px 40px 25px;
+        height: 226px;
+        
+    }
+    ._arrow_down {
+        width: 40px;
+        bottom: -17px;
+        left: 400px;
+        position: absolute;
+    }
+    .specialists__name {
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: 900;
+        color: #013444;
+        padding-left: 90px;
+    }
+    .specialists_carousel {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        left: 50%;
+        top: 78%;
+        img {
+            width: 15px;
+            height: 15px;
+            padding-left: 7px;
+            padding-right: 7px;
+        }
+    }
+    .specialists__button {
+        display: flex;
+        flex-direction: column;
+        background-color: $dark-blue;
+        box-shadow: 6px 10px 27px 0px rgba(29,29,28,0.31);
+        border-radius: 31px;
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: 200;
+        color: #faf7f4;
+        width: 273px;
+        height: 62px;
+        align-self: flex-end;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        margin-top: 15px;
+        margin-right: 80px;
+        margin-bottom: 65px;
+        span {
+            font-weight: 900;
+        }
+    }
+}

@@ -1,0 +1,56 @@
+.whatWeDo {
+    background-image: url(../../img/whatwedo_back.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-left: 110px;
+    margin-right: 75px;
+    position: relative;
+    .whatWeDo__title {
+        margin-top: 115px;
+        font-size: 35px;
+        line-height: 50px;
+        font-weight: 900;
+        color: #013444;
+    }
+    .whatWeDo__title::after {
+        content: "";
+        width: 50px;
+        height: 5px;
+        background-color: $blue;
+        position: absolute;
+        top: 75px;
+        left: 0;
+    }
+    .whatWeDo__text {
+        margin-top: 62px;
+        font-size: 28px;
+        line-height: 36px;
+        font-weight: 200;
+        color: #013444;
+        width: 500px;
+    }
+    .whatWeDo__button {
+        display: flex;
+        flex-direction: column;
+        background-color: $dark-blue;
+        box-shadow: 6px 10px 27px 0px rgba(29,29,28,0.31);
+        border-radius: 31px;
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: 200;
+        color: #faf7f4;
+        width: 273px;
+        height: 62px;
+        align-self: flex-end;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        margin-top: 62px;
+        margin-right: 100px;
+        margin-bottom: 115px;
+        span {
+            font-weight: 900;
+        }
+    }
+}
