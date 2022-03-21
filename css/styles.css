@@ -804,6 +804,216 @@ body {
   width: 34px;
 }
 
+.willkom {
+  background-image: url(../img/willkom.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.willkom .back_col {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #107077c7;
+}
+
+.willkom ._container {
+  padding: 100px 0 95px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.willkom .willkom__info {
+  max-width: 600px;
+}
+
+.willkom .willkom__title {
+  font-size: 35px;
+  line-height: 50px;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.willkom .willkom__band {
+  margin: 20px 0 0 0;
+  width: 50px;
+  height: 10px;
+  background-color: #30bac7;
+}
+
+.willkom .willkom__text {
+  margin: 20px 0 0 0;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.willkom .willkom__button {
+  margin: 20px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 65px;
+  width: 272px;
+  border-radius: 40px;
+  background: #92d1d9;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #013444;
+  text-decoration: none;
+}
+
+.willkom .willkom__button span {
+  display: block;
+  font-weight: 900;
+}
+
+.du-hast ._container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 50px 85px 90px 85px;
+  position: relative;
+  overflow: hidden;
+}
+
+.du-hast ._container .du-hast__back {
+  position: absolute;
+  right: -340px;
+  bottom: 0;
+  max-height: 900px;
+  z-index: 10;
+}
+
+.du-hast .du-hast__title {
+  font-size: 55px;
+  line-height: 60px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #013444;
+}
+
+.du-hast .du-hast__band {
+  margin: 20px 0 0 0;
+  width: 50px;
+  height: 10px;
+  background-color: #30bac7;
+}
+
+.du-hast .du-hast__text {
+  margin: 20px 0 0 0;
+  font-size: 35px;
+  line-height: 50px;
+  font-weight: 400;
+  color: #013444;
+}
+
+.du-hast .du-hast__row {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 75px 0 0 0;
+}
+
+.du-hast .du-hast__row .card {
+  position: relative;
+  z-index: 15;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.du-hast .du-hast__row .card .card__img {
+  width: 330px;
+  height: 330px;
+}
+
+.du-hast .du-hast__row .card .card__avatar {
+  margin: 0 30px 0 0;
+}
+
+.du-hast .du-hast__row .card p {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #013444;
+}
+
+.du-hast .du-hast__row .card .card__name {
+  font-weight: 900;
+}
+
+.du-hast .du-hast__row .card .card__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.du-hast .du-hast__row .card .card__list .card__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: #013444;
+}
+
+.du-hast .du-hast__row .card .card__list .card__link img {
+  width: 25px;
+  height: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.du-hast .du-hast__row .card .card__list li:not(:last-child) {
+  margin: 0 10px 0 0;
+}
+
+.du-hast .du-hast__row .card:not(:last-child) {
+  margin: 0 60px 0 0;
+}
+
 footer {
   width: 100%;
   background-color: #063544;
