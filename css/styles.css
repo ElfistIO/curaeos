@@ -181,6 +181,10 @@ body {
   margin: 0 auto;
 }
 
+.header {
+  background-color: #063544;
+}
+
 .header__menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -189,7 +193,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #063544;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -344,6 +347,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: relative;
 }
 
 .benefits__title {
@@ -364,6 +368,14 @@ body {
   position: absolute;
   top: 110px;
   left: 100px;
+}
+
+.benefits_back {
+  position: absolute;
+  width: 526px;
+  right: -280px;
+  top: 0px;
+  overflow: hidden;
 }
 
 .benefits__box {
@@ -457,6 +469,16 @@ body {
   margin-top: 67px;
   background-color: #92d1d9;
   position: relative;
+}
+
+.specialists ._container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .specialists .specialists__title {
@@ -584,7 +606,7 @@ body {
           align-items: center;
   text-decoration: none;
   margin-top: 15px;
-  margin-right: 100px;
+  margin-right: 80px;
   margin-bottom: 65px;
 }
 
@@ -666,15 +688,18 @@ body {
 }
 
 .whereWeAre {
+  background-color: #16838a;
+}
+
+.whereWeAre ._container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #16838a;
+  position: relative;
+  overflow: visible;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  position: relative;
-  overflow: visible;
 }
 
 .whereWeAre .whereWeAre_image-box {

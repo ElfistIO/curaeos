@@ -1,8 +1,11 @@
+.header {
+    background-color: $dark-blue;
+}
 .header__menu {
     display: flex;
     height: 121px;
     align-items: center;
-    background-color: $dark-blue;
+
     justify-content: space-between;
     .header__logo {
         width: 116px;
