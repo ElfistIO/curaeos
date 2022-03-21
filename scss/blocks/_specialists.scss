@@ -108,4 +108,8 @@
             font-weight: 900;
         }
     }
+    .specialists__button:hover {
+        background-color: $semi-dark-blue;
+        transition: ease 0.3s;
+    }
 }

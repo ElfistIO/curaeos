@@ -285,6 +285,12 @@ body {
   color: #013444;
 }
 
+.header__menu .header__button:hover {
+  background-color: #16838a;
+  -webkit-transition: ease 0.3s;
+  transition: ease 0.3s;
+}
+
 .display-block {
   display: block;
 }
@@ -366,6 +372,12 @@ body {
 
 .hero .hero__button span {
   font-weight: 900;
+}
+
+.hero .hero__button:hover {
+  background-color: #16838a;
+  -webkit-transition: ease 0.3s;
+  transition: ease 0.3s;
 }
 
 .benefits {
@@ -489,6 +501,12 @@ body {
 
 .benefits__button span {
   font-weight: 900;
+}
+
+.benefits__button:hover {
+  background-color: #16838a;
+  -webkit-transition: ease 0.3s;
+  transition: ease 0.3s;
 }
 
 .specialists {
@@ -647,6 +665,12 @@ body {
   font-weight: 900;
 }
 
+.specialists .specialists__button:hover {
+  background-color: #16838a;
+  -webkit-transition: ease 0.3s;
+  transition: ease 0.3s;
+}
+
 .whatWeDo {
   background-image: url(../img/whatwedo_back.png);
   background-size: contain;
@@ -718,6 +742,12 @@ body {
 
 .whatWeDo .whatWeDo__button span {
   font-weight: 900;
+}
+
+.whatWeDo .whatWeDo__button:hover {
+  background-color: #16838a;
+  -webkit-transition: ease 0.3s;
+  transition: ease 0.3s;
 }
 
 .whereWeAre {
@@ -818,6 +848,13 @@ body {
 
 .whereWeAre .whereWeAre__button span {
   font-weight: 900;
+}
+
+.whereWeAre .whereWeAre__button:hover {
+  background-color: #063544;
+  color: white;
+  -webkit-transition: ease 0.3s;
+  transition: ease 0.3s;
 }
 
 .divider {
@@ -954,6 +991,12 @@ body {
   text-decoration: none;
   margin-top: 45px;
   margin-bottom: 88px;
+}
+
+.feedback .feedback__button:hover {
+  background-color: #16838a;
+  -webkit-transition: ease 0.3s;
+  transition: ease 0.3s;
 }
 
 .feedback .feedback__chat-item-dark {
@@ -1967,7 +2010,7 @@ footer .footer__footer li {
     height: 51px !important;
     margin-top: 20px !important;
     margin-bottom: 30px !important;
-    margin-left: 20px !important;
+    margin-left: 40px !important;
   }
   .feedback__chat-item-dark span {
     top: 2px !important;

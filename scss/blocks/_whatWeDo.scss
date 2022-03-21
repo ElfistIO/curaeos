@@ -53,4 +53,8 @@
             font-weight: 900;
         }
     }
+    .whatWeDo__button:hover {
+        background-color: $semi-dark-blue;
+        transition: ease 0.3s;
+    }
 }

@@ -67,4 +67,9 @@
             font-weight: 900;
         }
     }
+    .whereWeAre__button:hover {
+        background-color: $dark-blue;
+        color: white;
+        transition: ease 0.3s;
+    }
 }

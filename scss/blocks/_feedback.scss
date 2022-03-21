@@ -73,6 +73,10 @@
         margin-top: 45px;
         margin-bottom: 88px;
     }
+    .feedback__button:hover {
+        background-color: $semi-dark-blue;
+        transition: ease 0.3s;
+    }
     .feedback__chat-item-dark {
         display: flex;
         justify-content: flex-end;

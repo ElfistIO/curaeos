@@ -70,6 +70,10 @@
             color: #013444;
         }
     }
+    .header__button:hover {
+        background-color: $semi-dark-blue;
+        transition: ease 0.3s;
+    }
 }
 .display-block {
     display: block;
