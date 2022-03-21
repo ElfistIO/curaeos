@@ -1015,7 +1015,7 @@ body {
 }
 
 .willkom ._container {
-  padding: 100px 0 95px 0;
+  padding: 100px 85px 95px 85px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1084,6 +1084,11 @@ body {
   font-weight: 900;
 }
 
+.du-hast {
+  width: 100%;
+  overflow: hidden;
+}
+
 .du-hast ._container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1097,7 +1102,6 @@ body {
           align-items: flex-start;
   padding: 50px 85px 90px 85px;
   position: relative;
-  overflow: hidden;
 }
 
 .du-hast ._container .du-hast__back {
@@ -1109,6 +1113,8 @@ body {
 }
 
 .du-hast .du-hast__title {
+  position: relative;
+  z-index: 11;
   font-size: 55px;
   line-height: 60px;
   font-weight: 900;
@@ -1124,6 +1130,8 @@ body {
 }
 
 .du-hast .du-hast__text {
+  position: relative;
+  z-index: 12;
   margin: 20px 0 0 0;
   font-size: 35px;
   line-height: 50px;
@@ -1136,6 +1144,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -1333,6 +1343,17 @@ footer .footer__footer li {
   .hero {
     background-size: contain !important;
   }
+  .willkom ._container {
+    padding: 100px 85px 95px 85px;
+  }
+  .du-hast .du-hast__row {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .du-hast .du-hast__row .card:not(:last-child) {
+    margin: 0 0 40px 0;
+  }
 }
 
 @media (max-width: 1110px) {
@@ -1352,6 +1373,34 @@ footer .footer__footer li {
   }
   .hero__title::after {
     top: 280px !important;
+  }
+  footer .footer__menu .footer__item a {
+    font-size: 15px;
+  }
+  .willkom ._container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .willkom .willkom__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 0 40px 0;
   }
 }
 
@@ -1412,6 +1461,65 @@ footer .footer__footer li {
     width: 136px !important;
     height: 31px !important;
     margin-top: 20px !important;
+  }
+  footer .footer__title {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  footer .footer__menu li:nth-child(2),
+  footer .footer__menu li:nth-child(3) {
+    display: none;
+  }
+  footer .footer__menu .footer__list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer .footer__menu .header__logo {
+    margin: 0 15px 15px 0;
+  }
+  footer .footer__footer ul {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer .footer__footer ul li {
+    margin: 0 15px 15px 0;
+  }
+  .willkom__video video {
+    width: 400px;
+    height: 200px;
+  }
+  .willkom .willkom__title {
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 900;
+  }
+  .du-hast ._container {
+    padding: 50px 15px 90px 15px;
+  }
+  .du-hast .du-hast__row .card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .du-hast .du-hast__row .card .card__img {
+    width: 230px;
+    height: 230px;
+  }
+  .du-hast .du-hast__title {
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 600;
+  }
+  .du-hast .du-hast__text {
+    font-size: 25px;
+    line-height: 40px;
   }
 }
 /*# sourceMappingURL=styles.css.map */

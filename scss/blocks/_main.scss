@@ -11,7 +11,7 @@
         background-color: #107077c7;
     }
     ._container {
-        padding: 100px 0 95px 0;
+        padding: 100px 85px 95px 85px;
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
@@ -61,13 +61,15 @@
 
 }
 .du-hast {  
+    width: 100%;
+    overflow: hidden;
     ._container {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         padding: 50px 85px 90px 85px;
         position: relative;
-        overflow: hidden;
+        
         .du-hast__back {
             position: absolute;
             right: -340px;
@@ -77,6 +79,8 @@
         }
     }
     .du-hast__title {
+        position: relative;
+        z-index: 11;
         font-size: 55px;
         line-height: 60px;
         font-weight: 900;
@@ -90,6 +94,8 @@
         background-color: $blue;
     }
     .du-hast__text {
+        position: relative;
+        z-index: 12;
         margin: 20px 0 0 0;
         font-size: 35px;
         line-height: 50px;
@@ -99,6 +105,7 @@
     .du-hast__row {
         width: 100%;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         margin: 75px 0 0 0;
         .card {
