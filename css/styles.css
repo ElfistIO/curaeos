@@ -803,4 +803,123 @@ body {
   margin-top: 27px;
   width: 34px;
 }
+
+footer {
+  width: 100%;
+  background-color: #063544;
+}
+
+footer ._container {
+  padding: 0 85px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .footer__title {
+  margin: 60px 0 0;
+  text-align: center;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+footer .footer__band {
+  margin: 20px 0 0 0;
+  width: 50px;
+  height: 10px;
+  background-color: #30bac7;
+}
+
+footer .footer__button {
+  margin: 35px 0 0 0;
+}
+
+footer .footer__button a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  width: 272px;
+  height: 62px;
+  background-color: #92d1d9;
+  -webkit-box-shadow: 6px 10px 27px 0px rgba(29, 29, 28, 0.31);
+          box-shadow: 6px 10px 27px 0px rgba(29, 29, 28, 0.31);
+  border-radius: 50px;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 900;
+  color: #063544;
+  text-align: center;
+}
+
+footer .footer__menu {
+  margin: 75px 0 0 0;
+  width: 100%;
+  padding: 0 0 55px 0;
+  border-bottom: 1px solid #FFF;
+}
+
+footer .footer__menu .footer__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+footer .footer__menu .header__logo {
+  width: 160px;
+  height: 115px;
+}
+
+footer .footer__menu .footer__item a {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer .footer__footer {
+  width: 100%;
+  margin: 0 0 30px 0;
+}
+
+footer .footer__footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .footer__footer li {
+  font-size: 16px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #ffffff;
+}
 /*# sourceMappingURL=styles.css.map */
