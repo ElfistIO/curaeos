@@ -157,3 +157,19 @@
         }
     }
 }
+.slider__row {
+    overflow: hidden;
+    display: flex;
+    scroll-snap-type: y mandatory;
+    .slider__slide {
+        flex: 0 0 auto;
+        display: flex;
+        width: 100%;
+        transition: all 0.5s ease-in .5s;
+        
+    }
+    // .slider__slide:nth-child(1) {
+    //     margin-right: -150%;
+    //     transition: all 1s ease-in 1s;
+    // }
+}
