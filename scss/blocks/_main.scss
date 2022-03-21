@@ -83,6 +83,7 @@
     right: -280px;
     top: 0px;
     overflow: hidden;
+    z-index: -1;
 }
 .benefits__box {
     display: grid;
@@ -276,7 +277,7 @@
         background-color: $blue;
         position: absolute;
         top: 75px;
-        left: 110px;
+        left: 0;
     }
     .whatWeDo__text {
         margin-top: 62px;
@@ -318,14 +319,14 @@
         overflow: visible;
         justify-content: space-between;
     }
-    .whereWeAre_image-box {
+    .whereWeAre__image-box {
         padding-left: 46px;
-        padding-top: -50px;
+        padding-top: -40px;
     }
-    .whereWeAre_image {
+    .whereWeAre__image {
         position: absolute;
         top: -75px;
-        width: 48%;
+        width: 50%;
     }
     .whereWeAre__box {
         display: flex;
@@ -341,11 +342,21 @@
         color: #ffffff;
         margin-top: 100px;
     }
+    .whereWeAre__title::after {
+        content: "";
+        width: 50px;
+        height: 5px;
+        background-color: $blue;
+        position: absolute;
+        top: 175px;
+        left: 790px;
+    }
     .whereWeAre__text {
         font-size: 24px;
         line-height: 36px;
         font-weight: 200;
         color: #ffffff;
+        margin-top: 63px;
     }
     .whereWeAre__button {
         display: flex;
@@ -386,5 +397,115 @@
     .divider__img {
         margin-top: 27px;
         width: 34px;
+    }
+}
+.feedback {
+    background-color: $light-blue;
+    ._container {
+        display: flex;
+        position: relative;
+    }
+    .feedback__box {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        padding-left: 100px;
+        padding-right: 75px;
+        position: relative;
+    }
+    .feedback__title {
+        font-size: 35px;
+        line-height: 50px;
+        font-weight: 900;
+        color: #013444;
+        margin-top: 150px;
+    }
+    .feedback__title::after {
+        content: "";
+        width: 50px;
+        height: 5px;
+        background-color: $blue;
+        position: absolute;
+        top: 215px;
+        left: 100px;
+    }
+    .feedback__text {
+        margin-top: 46px;
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: 200;
+        color: #013444;
+    }
+    .feedback__image-box {
+        display: flex;
+        width : 70%;
+        flex-direction: column;
+        background-image: url(../../img/feedback_back.png);
+        background-position: right bottom;
+        background-size: cover;
+        padding: 150px 70px 160px 50px;
+        position: relative;
+    }
+    ._opacity {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: #faf7f4;
+        opacity: 0.6;
+    }
+    .feedback__button {
+        display: flex;
+        flex-direction: column;
+        background-color: $dark-blue;
+        box-shadow: 6px 10px 27px 0px rgba(29,29,28,0.31);
+        border-radius: 31px;
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: 900;
+        color: #faf7f4;
+        width: 273px;
+        height: 62px;
+        align-self: flex-start;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        margin-top: 45px;
+        margin-bottom: 88px;
+    }
+    .feedback__chat-item-dark {
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        span {
+            position: absolute;
+            top: 22px;
+            right: 180px;
+            font-size: 24px;
+            line-height: 28px;
+            font-weight: 400;
+            color: #ffffff;
+        }
+    }
+    .feedback__chat-item-blue {
+        margin-top: 63px;
+        margin-bottom: 63px;
+        position: relative;
+        span {
+            position: absolute;
+            top: 22px;
+            left: 180px;
+            font-size: 24px;
+            line-height: 28px;
+            font-weight: 400;
+            color: #ffffff;
+        }
+    }
+    .feedback__chat-item-dark-img {
+        height: 125px;
+    }
+    .feedback__chat-item-blue-img {
+        height: 125px;
     }
 }

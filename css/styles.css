@@ -376,6 +376,7 @@ body {
   right: -280px;
   top: 0px;
   overflow: hidden;
+  z-index: -1;
 }
 
 .benefits__box {
@@ -639,7 +640,7 @@ body {
   background-color: #30bac7;
   position: absolute;
   top: 75px;
-  left: 110px;
+  left: 0;
 }
 
 .whatWeDo .whatWeDo__text {
@@ -702,15 +703,15 @@ body {
           justify-content: space-between;
 }
 
-.whereWeAre .whereWeAre_image-box {
+.whereWeAre .whereWeAre__image-box {
   padding-left: 46px;
-  padding-top: -50px;
+  padding-top: -40px;
 }
 
-.whereWeAre .whereWeAre_image {
+.whereWeAre .whereWeAre__image {
   position: absolute;
   top: -75px;
-  width: 48%;
+  width: 50%;
 }
 
 .whereWeAre .whereWeAre__box {
@@ -734,11 +735,22 @@ body {
   margin-top: 100px;
 }
 
+.whereWeAre .whereWeAre__title::after {
+  content: "";
+  width: 50px;
+  height: 5px;
+  background-color: #30bac7;
+  position: absolute;
+  top: 175px;
+  left: 790px;
+}
+
 .whereWeAre .whereWeAre__text {
   font-size: 24px;
   line-height: 36px;
   font-weight: 200;
   color: #ffffff;
+  margin-top: 63px;
 }
 
 .whereWeAre .whereWeAre__button {
@@ -802,5 +814,157 @@ body {
 .divider .divider__img {
   margin-top: 27px;
   width: 34px;
+}
+
+.feedback {
+  background-color: #92d1d9;
+}
+
+.feedback ._container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.feedback .feedback__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 30%;
+  padding-left: 100px;
+  padding-right: 75px;
+  position: relative;
+}
+
+.feedback .feedback__title {
+  font-size: 35px;
+  line-height: 50px;
+  font-weight: 900;
+  color: #013444;
+  margin-top: 150px;
+}
+
+.feedback .feedback__title::after {
+  content: "";
+  width: 50px;
+  height: 5px;
+  background-color: #30bac7;
+  position: absolute;
+  top: 215px;
+  left: 100px;
+}
+
+.feedback .feedback__text {
+  margin-top: 46px;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 200;
+  color: #013444;
+}
+
+.feedback .feedback__image-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url(../../img/feedback_back.png);
+  background-position: right bottom;
+  background-size: cover;
+  padding: 150px 70px 160px 50px;
+  position: relative;
+}
+
+.feedback ._opacity {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #faf7f4;
+  opacity: 0.6;
+}
+
+.feedback .feedback__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #063544;
+  -webkit-box-shadow: 6px 10px 27px 0px rgba(29, 29, 28, 0.31);
+          box-shadow: 6px 10px 27px 0px rgba(29, 29, 28, 0.31);
+  border-radius: 31px;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 900;
+  color: #faf7f4;
+  width: 273px;
+  height: 62px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  margin-top: 45px;
+  margin-bottom: 88px;
+}
+
+.feedback .feedback__chat-item-dark {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: relative;
+}
+
+.feedback .feedback__chat-item-dark span {
+  position: absolute;
+  top: 22px;
+  right: 180px;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.feedback .feedback__chat-item-blue {
+  margin-top: 63px;
+  margin-bottom: 63px;
+  position: relative;
+}
+
+.feedback .feedback__chat-item-blue span {
+  position: absolute;
+  top: 22px;
+  left: 180px;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.feedback .feedback__chat-item-dark-img {
+  height: 125px;
+}
+
+.feedback .feedback__chat-item-blue-img {
+  height: 125px;
 }
 /*# sourceMappingURL=styles.css.map */
