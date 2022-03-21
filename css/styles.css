@@ -1761,31 +1761,241 @@ footer .footer__footer li {
   }
   .hero {
     padding-left: 20px;
+    height: 250px !important;
+    background-size: 180% !important;
+    background-position: center !important;
   }
   .hero__title {
-    padding-top: 20px !important;
-    font-size: 15px !important;
-    line-height: 20px !important;
-  }
-  .hero__title span {
-    width: 290px;
-  }
-  .hero__title::after {
-    top: 210px !important;
+    display: none !important;
   }
   .hero__text {
-    font-size: 15px !important;
-    line-height: 20px !important;
-  }
-  .hero__text span {
-    width: 290px;
+    display: none !important;
   }
   .hero__button {
-    font-size: 10px !important;
-    line-height: 10px !important;
-    width: 136px !important;
-    height: 31px !important;
+    font-size: 16px !important;
+    line-height: 16px !important;
+    width: 196px !important;
+    height: 51px !important;
+    margin-top: 170px !important;
+  }
+  .benefits__title {
+    font-size: 16px !important;
+    line-height: 20px !important;
+    padding-left: 20px !important;
     margin-top: 20px !important;
+  }
+  .benefits__title:after {
+    content: "";
+    top: 50px !important;
+    left: 20px;
+  }
+  .benefits_back {
+    display: none;
+  }
+  .benefits__box {
+    -ms-grid-columns: (100%)[1];
+        grid-template-columns: repeat(1, 100%);
+    grid-column-gap: 25px !important;
+    margin-top: 20px !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+  }
+  .benefits__item {
+    font-size: 18px !important;
+    line-height: 22px !important;
+    padding: 20px 20px 20px 20px !important;
+  }
+  .benefits__button {
+    font-size: 16px !important;
+    line-height: 16px !important;
+    width: 196px !important;
+    height: 51px !important;
+    margin-top: 0 !important;
+  }
+  .specialists__title {
+    font-size: 16px !important;
+    line-height: 20px !important;
+    margin-top: 20px !important;
+    padding-left: 40px !important;
+  }
+  .specialists__title::after {
+    content: "";
+    top: 50px !important;
+    left: 40px !important;
+  }
+  .specialists__wrap {
+    margin-top: 30px !important;
+    padding: 0 15px 0 15px !important;
+  }
+  ._arrow_left {
+    width: 8px !important;
+    height: 17px !important;
+    padding-right: 10px;
+  }
+  ._arrow_right {
+    width: 8px !important;
+    height: 17px !important;
+    padding-left: 10px;
+  }
+  .specialists__photo {
+    height: 200px !important;
+  }
+  .specialists__photo img {
+    width: 200px !important;
+  }
+  .specialists {
+    margin-top: 30px !important;
+  }
+  .specialists__text {
+    display: none !important;
+  }
+  .specialists__name {
+    font-size: 16px !important;
+    line-height: 24px !important;
+    padding-left: 40px !important;
+    margin-bottom: 40px !important;
+  }
+  ._arrow_down {
+    left: 300px !important;
+  }
+  .specialists_carousel {
+    left: 40% !important;
+    top: 73% !important;
+  }
+  .specialists_carousel img {
+    width: 8px !important;
+    height: 8px !important;
+  }
+  .specialists__button {
+    font-size: 16px !important;
+    line-height: 16px !important;
+    width: 196px !important;
+    height: 51px !important;
+    margin-top: 0 !important;
+    margin-bottom: 40px !important;
+    margin-left: 10px !important;
+    margin-right: 40px !important;
+  }
+  .whatWeDo {
+    background-size: 0%;
+    margin-left: 20px !important;
+  }
+  .whatWeDo__title {
+    margin-top: 25px !important;
+    font-size: 18px !important;
+    line-height: 22px !important;
+  }
+  .whatWeDo__title::after {
+    content: "";
+    top: 35px !important;
+  }
+  .whatWeDo__text {
+    font-size: 16px !important;
+    line-height: 20px !important;
+    width: 280px !important;
+    margin-top: 30px !important;
+  }
+  .whatWeDo__button {
+    font-size: 16px !important;
+    line-height: 16px !important;
+    width: 196px !important;
+    height: 51px !important;
+    margin-top: 30px !important;
+    margin-bottom: 50px !important;
+    margin-left: 40px !important;
+  }
+  .whereWeAre__image-box {
+    display: none;
+  }
+  .whereWeAre__title {
+    font-size: 18px !important;
+    line-height: 22px !important;
+    margin-top: 20px !important;
+    margin-bottom: 10px !important;
+  }
+  .whereWeAre__title::after {
+    content: "";
+    top: 55px !important;
+    left: 20px !important;
+  }
+  .whereWeAre__text {
+    margin-top: 20px !important;
+    font-size: 14px !important;
+    line-height: 18px !important;
+  }
+  .whereWeAre__button {
+    font-size: 16px !important;
+    line-height: 16px !important;
+    width: 196px !important;
+    height: 51px !important;
+    margin-top: 20px !important;
+    margin-bottom: 30px !important;
+    margin-left: 40px !important;
+  }
+  .whereWeAre__box {
+    width: 100% !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+  }
+  .feedback__box {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    width: 100% !important;
+  }
+  .feedback__image-box {
+    display: none !important;
+    padding: 80px 50px 50px 50px !important;
+  }
+  .feedback__title {
+    font-size: 18px !important;
+    line-height: 24px !important;
+    margin-top: 20px !important;
+  }
+  .feedback__title::after {
+    content: "";
+    top: 65px !important;
+    left: 20px !important;
+  }
+  .feedback__text {
+    font-size: 16px !important;
+    line-height: 22px !important;
+  }
+  .feedback__button {
+    font-size: 16px !important;
+    line-height: 16px !important;
+    width: 196px !important;
+    height: 51px !important;
+    margin-top: 20px !important;
+    margin-bottom: 30px !important;
+    margin-left: 20px !important;
+  }
+  .feedback__chat-item-dark span {
+    top: 2px !important;
+    right: 75px !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+  .feedback__chat-item-blue span {
+    top: 2px !important;
+    left: 75px !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+  .feedback__chat-item-dark-img {
+    height: 65px !important;
+  }
+  .feedback__chat-item-blue-img {
+    height: 65px !important;
+  }
+  .divider {
+    font-size: 22px !important;
+    line-height: 36px !important;
+    margin-top: 15px !important;
+    margin-bottom: 20px !important;
+  }
+  .divider .divider__img {
+    margin-top: 15px !important;
+    width: 24px !important;
   }
   footer .footer__title {
     font-size: 25px;
